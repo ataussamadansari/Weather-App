@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Weather App (Task - 1)</string>
+    <string name="lorem">Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. A eius commodi libero debitis sint praesentium,
+        iusto.</string>
+    <string name="lorem100">Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. A eius commodi libero debitis sint praesentium,
+        iusto.Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. A eius commodi libero debitis sint praesentium,
+        iusto.Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. A eius commodi libero debitis sint praesentium,
+        iusto.Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. A eius commodi libero debitis sint praesentium,
+        iusto.Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. A eius commodi libero debitis sint praesentium,
+        iusto.Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. A eius commodi libero debitis sint praesentium,
+        iusto.Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. A eius commodi libero debitis sint praesentium,
+        iusto.Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. A eius commodi libero debitis sint praesentium,
+        iusto.</string>
+    <string name="first_heading"><font color="#FF4747">Seamless</font> Shopping \nExperience</string>
+    <string name="skip">Skip</string>
+    <string name="login">Login</string>
+    <string name="add_new_user">Add New User</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+</resources>

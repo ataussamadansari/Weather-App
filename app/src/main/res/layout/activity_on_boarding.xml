@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.OnBoardingActivity">
+
+
+    <Button
+        android:id="@+id/btn_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:text="@string/skip"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/imageSlider"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_skip" />
+
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginBottom="?attr/actionBarSize"
+        android:background="@drawable/circle_btn_bg"
+        android:contentDescription="@string/app_name"
+        android:paddingStart="@dimen/_7sdp"
+        android:paddingTop="@dimen/_8sdp"
+        android:paddingEnd="@dimen/_3sdp"
+        android:paddingBottom="@dimen/_8sdp"
+        android:rotation="180"
+        android:src="@drawable/ic_arrow_right"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tint="@color/color1" />
+
+    <ImageView
+        android:id="@+id/btn_next"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:layout_marginBottom="?attr/actionBarSize"
+        android:background="@drawable/circle"
+        android:contentDescription="@string/app_name"
+        android:paddingStart="@dimen/_7sdp"
+        android:paddingTop="@dimen/_8sdp"
+        android:paddingEnd="@dimen/_3sdp"
+        android:paddingBottom="@dimen/_8sdp"
+        android:src="@drawable/ic_arrow_right"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:tint="@color/color4" />
+
+
+    <LinearLayout
+        android:id="@+id/dotLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSlider" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
